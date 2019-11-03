@@ -1,1 +1,228 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-shadow: 0 0 0 1px lawngreen;
+    outline: 3px salmon;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+
+    line-height: 28px;
+}
+
+.main-nav {
+    padding-right: 121px;
+}
+
+p {
+    color: #8b9093;
+}
+
+.main-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.main-menu li {
+    min-width: 101px;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: #585c62;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.main-menu li a:hover {
+    color: #121112;
+}
+
+.main-info {
+    display: flex;
+
+}
+
+.welcome {
+    width: 20%;
+}
+
+.welcome h1 {
+    font-size: 121px;
+    transform: rotate(-90deg)translateX(-392px)translateY(89px);
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.additional-block-first {
+    padding: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.additional-block-first>p {
+    font-size: 16px;
+
+    width: 507px;
+}
+
+.italic-head {
+    font-size: 54px;
+    font-style: italic;
+    margin-right: 40px;
+}
+
+.history {
+    display: flex;
+    min-height: 700px;
+}
+
+.flex-history {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 1200px;
+}
+
+.history-headline {
+    font-size: 36px;
+    width: 250px;
+}
+
+.headline-large {
+    line-height: 62px;
+    font-size: 56px;
+    font-weight: lighter;
+    padding: 23px;
+    width: 300px;
+    line-height: 78px;
+}
+
+.history-row.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history-row.one p {
+    width: 400px;
+}
+
+.history-row.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.history-row.two p {
+    width: 380px;
+}
+
+.transport-info h2 {
+    font-size: 101px;
+    padding: 5%;
+
+}
+
+.train-center {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.train-center .train-article {
+    width: 276px;
+    padding: 50px;
+    margin-left: 35px;
+}
+.train-article span{
+    font-weight: bold;
+    color: #333333;
+}
+.inner-description{
+    color: #d4d5d5;
+    width: 500px;
+}
+.inner-description div:first-of-type{
+    font-size: 50px;
+    margin-bottom: 40px;
+ 
+}
+transport-scope{
+
+}
+.transport-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+     justify-content: flex-end;
+}
+.scope-heading{
+    font-size: 53px;
+    text-transform: uppercase;
+    padding: 15px 132px;
+    position: relative;
+    margin-left: 200px;
+}
+
+.scope-heading::before{
+    content: "there are lot more about";
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 5px;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 57px;
+    left: -130px;
+
+}
+.scope-heading::after{
+   content: "In london";
+   font-size: 12px;
+   letter-spacing: 2px;
+   padding-left: 30px;
+   position: absolute;
+   top: 48px;
+   left: 366px;
+}
+.transport-list li{
+margin-right: 20px;
+}
+.about h3{
+    font-size: 47px;
+    margin-bottom: 15px;
+    margin-left: 130px;
+    font-weight: lighter;
+    
+
+}
+.about-flex{
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+.about-flex p:first-of-type{
+    width: 235px;
+    padding: 10px 30px;
+}
+.about-flex p{
+    width: 395px;
+    padding: 11px 65px;
+    margin: 0;
+}
+.letter{
+    margin: 0 auto;
+    width: 500px;
+}
+.nights{
+    margin-left: 330px;
+}
+.nights div:first-of-type{
+   
+}
